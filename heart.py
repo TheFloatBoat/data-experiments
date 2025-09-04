@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('heartdata.csv')
 graphCategories = ["scatter", "bar", "line", "pie", "box", "hist"]
 columnCategories = ["Duration", "Pulse", "Maxpulse", "Calories"]
 
